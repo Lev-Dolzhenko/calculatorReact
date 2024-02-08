@@ -1,0 +1,29 @@
+body {
+  font-family: $roboto;
+  /* color: $colorWhite; */
+  background-color: $colorBg;
+  font-size: 16px;
+}
+
+a {
+  transition: color 0.2s linear;
+
+  &:hover {
+    // color: $fff;
+  }
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  max-width: 530px;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.none {
+  display: none !important;
+}

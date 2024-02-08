@@ -1,0 +1,9 @@
+.calculator {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+
+  padding: 20px;
+  background-color: $colorBgSecondary;
+  border-radius: 15px;
+}

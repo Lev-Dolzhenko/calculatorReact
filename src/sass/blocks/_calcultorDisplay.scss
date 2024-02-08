@@ -1,0 +1,14 @@
+.calcultor__display {
+
+}
+
+.calcultor__input {
+    background-color: $colorBgSecondary;
+    border-radius: 5px;
+    border: 3px solid $colorAccent;
+    padding: 20px;
+
+    text-align: right;
+
+    width: 100%;
+}
